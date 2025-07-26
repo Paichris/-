@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sport Health Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.png" />
+  <link rel="preload" href="fonts/Prompt-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <h1>ระบบติดตามสุขภาพ & กีฬา</h1>
+    <nav>
+      <a href="login.html">เข้าสู่ระบบ</a>
+      <a href="Signup.html">สมัครสมาชิก</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>ดูแลสุขภาพอย่างมีประสิทธิภาพ</h2>
+      <p>ระบบ Sport Health Tracker จะช่วยให้คุณติดตามพฤติกรรมสุขภาพและบันทึกกิจกรรมกีฬาได้อย่างง่ายดาย</p>
+      <img src="images/fitness.jpg" alt="ภาพออกกำลังกาย" />
+    </section>
+
+    <section class="features">
+      <h3>คุณสมบัติหลัก</h3>
+      <ul>
+        <li>บันทึกกิจกรรมในแต่ละวัน</li>
+        <li>ติดตามค่าดัชนีสุขภาพ (เช่น น้ำหนัก, BMI)</li>
+        <li>ระบบสะสม XP เพิ่มแรงจูงใจ</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>สร้างโดย เชาวภัทร © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
